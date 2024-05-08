@@ -305,4 +305,7 @@ nav label:hover {
     height: 8vmin;
 
   }
+  .info h1{
+    margin-top: 5%;
+  }
 }
