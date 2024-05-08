@@ -287,16 +287,16 @@ nav label:hover {
 }
 @media (max-width: 430px) {
   .clip {
-    clip-path: circle(120px at 55% 30%);
+    clip-path: circle(120px at 55% 45%);
   }
   .img {
-    height: 30%;
+    height: 50%;
     width: 80%;
-    top: 16%;
+    top: 20%;
     right: 12%;
   }
   .landing-page{
-    height: 50%;
+    height: 70%;
   }
   .info{
     height: 90%;
