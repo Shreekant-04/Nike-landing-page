@@ -291,14 +291,18 @@ nav label:hover {
   }
   .img {
     height: 50%;
-    width: 80%;
+    width: 90%;
     top: 20%;
-    right: 12%;
+    right: 5%;
   }
   .landing-page{
     height: 70%;
   }
   .info{
     height: 90%;
+  }
+  .info button{
+    height: 8vmin;
+
   }
 }
