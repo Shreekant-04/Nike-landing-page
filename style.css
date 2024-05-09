@@ -131,9 +131,6 @@ nav label:hover {
 }
 
 @media (max-width:430px){
-  body{
-    background-color: blue;
-  }
   .landing-page{
     height: 50%;
     justify-content: space-evenly;
