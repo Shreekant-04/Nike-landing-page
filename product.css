@@ -1,2 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-info {
+  height: 85%;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: 0 0 5px;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
 
+.prod-info {
+  height: 75%;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2% 2% 0 2%;
+}
+.bigimage {
+  height: 75%;
+  width: 40%;
+  background-image: url(image/1.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
+.prod-name {
+  font-size: 3vw;
+  height: 30%;
+}
+
+.add {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+  height: 26vh;
+  width: 100%;
+}
+.prod-price-cart {
+  height: 100%;
+  width: 40%;
+}
+.add h3 {
+  height: 8vmin;
+  margin-top: 15px;
+  font-size: 1.6vw;
+  line-height: 8vmin;
+  color: rgba(0, 0, 255, 0.582);
+  font-weight: 900;
+}
+.add-cart {
+  height: 8vmin;
+  width: 20vmin;
+  background-color: black;
+  margin-top: 15px;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.prod-detail {
+  width: 60%;
+  margin-left: 5%;
+  max-height: 4vmin;
+  cursor: pointer;
+}
+.images {
+  width: 70%;
+  height: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  flex-direction: column;
+  gap: 3%;
+}
+.images::-webkit-scrollbar {
+  display: none;
+}
+.images div {
+  height: 100%;
+  width: 20%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.image1 {
+  background-image: url(image/1.png);
+}
+.image2 {
+  background-image: url(image/2.png);
+}
+.image3 {
+  background-image: url(image/3.png);
+}
+.image4 {
+  background-image: url(image/4.png);
+}
+.image5 {
+  background-image: url(image/5.png);
+}
+.image6 {
+  background-image: url(image/6.png);
+}
+.image7 {
+  background-image: url(image/7.jpg);
+}
+.image8 {
+  background-image: url(image/8.png);
+}
+.image9 {
+  background-image: url(image/9.jpeg);
+}
+@media (max-width: 770px) {
+  .bigimage {
+    width: 80%;
+    height: 35%;
+  }
+  .prod-info {
+    width: 100%;
+    height: 50%;
+    order: 3;
+  }
+  .images {
+    width: 100%;
+    height: 20%;
+    padding-top: 10px;
+  }
+  .prod-name {
+    font-size: 6vw;
+  }
+  .add h3 {
+    font-size: 2.5vw;
+  }
+  .product-info {
+    height: 90%;
+    margin-top: 7%;
+  }
+}
+@media (max-width: 430px) {
+    .product-info{
+        width: 100%;
+        overflow-x: visible;
+        border-radius: 0;
+        box-shadow: none;
+        height: 90%;
+
+    }
+  .bigimage {
+    width: 80%;
+    height: 25%;
+    background-size:80%  ;
+  }
+  .images {
+    height: 12%;
+  }
+  .prod-info {
+    height: 65%;
+    padding: 5% 5% 0 5%;
+  }
+  .prod-name {
+    height: 15%;
+  }
+  .prod-desc{
+    font-size: 3vw;
+  }
+  .add {
+    height: 60%;
+    width: 100%;
+  }
+  .add h3 {
+    font-size: 3.5vw;
+  }
+  .add-cart {
+    width: 90%;
+  }
+}
