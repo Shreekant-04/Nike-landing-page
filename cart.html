@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <script src="header/header.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header id="navbar"></header>
+    <h1 class="heading">Shopping Cart</h1>
+    <section class="my-cart">
+      <div class="items">
+        <div class="context">
+          <p class="prod_name">Product</p>
+          <p class="quantity">Quantity</p>
+          <p class="prod_price">Price</p>
+        </div>
+        <div class="cart-item">
+          <div class="item">
+            <label class="prod_name">Nike Free Metcon 5 (black)</label>
+            <label class="quantity">
+              <span class="material-symbols-outlined"> remove </span>
+              1 <span class="material-symbols-outlined"> add </span></label
+            >
+            <label class="prod_price">₹ 10,795.00</label>
+            <span class="material-symbols-outlined close"> close </span>
+          </div>
+          <div class="item">
+            <label class="prod_name">Nike Free Metcon 5 (black)</label>
+            <label class="quantity">
+              <span class="material-symbols-outlined"> remove </span>
+              1 <span class="material-symbols-outlined"> add </span></label
+            >
+            <label class="prod_price">₹ 10,795.00</label>
+            <span class="material-symbols-outlined close"> close </span>
+          </div>
+          <div class="item">
+            <label class="prod_name">Nike Free Metcon 5 (black)</label>
+            <label class="quantity">
+              <span class="material-symbols-outlined"> remove </span>
+              1 <span class="material-symbols-outlined"> add </span></label
+            >
+            <label class="prod_price">₹ 10,795.00</label>
+            <span class="material-symbols-outlined close"> close </span>
+          </div>
+          <div class="item">
+            <label class="prod_name">Nike Free Metcon 5 (black)</label>
+            <label class="quantity">
+              <span class="material-symbols-outlined"> remove </span>
+              1 <span class="material-symbols-outlined"> add </span></label
+            >
+            <label class="prod_price">₹ 10,795.00</label>
+            <span class="material-symbols-outlined close"> close </span>
+          </div>
+        </div>
+      </div>
+      <div class="pay">
+        <div class="coupon">
+          <input
+            type="text"
+            name="coupon"
+            id="coupon-id"
+            placeholder="Enter Coupon code"
+          />
+          <button type="submit" class="apply-coupon">Apply Coupon</button>
+        </div>
+        <div class="total">
+          <div class="subtotal">
+            <p class="name">Sub Total</p>
+            <div class="sub-p">
+              <span class="material-symbols-outlined"> currency_rupee </span>
+             <p  class="sub-amt">10,795</p> 
+            </div>
+          </div>
+          <div class="taxes">
+            <p class="name">Taxes(if applicable)</p>
+            <div class="sub-p">
+              <span class="material-symbols-outlined"> currency_rupee </span>
+             <p  class="sub-amt">0</p> 
+            </div>
+          </div>
+          <div class="discount">
+            <p class="name">discount</p>
+            <div class="sub-p">
+              <span class="material-symbols-outlined"> currency_rupee </span>
+             <p  class="sub-amt">0</p> 
+            </div>
+          </div>
+          <div class="total-price">
+            <p class="name">Total:</p>
+            <div class="sub-p">
+              <span class="material-symbols-outlined"> currency_rupee </span>
+             <p  class="sub-amt">10,795.0</p> 
+            </div>
+          </div>
+        </div>
+        <button class="paynow">Pay Now</button>
+        <div class="razor"></div>
+      </div>
+      <div class="back">< Continue Shopping</div>
+    </section>
+  </body>
+</html>
