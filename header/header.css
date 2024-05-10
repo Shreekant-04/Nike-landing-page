@@ -9,6 +9,7 @@ header {
   position: fixed;
   top: 0;
   background-color: #fff;
+  z-index: 999;
 }
 nav {
   width: 100%;
@@ -71,7 +72,7 @@ nav a:hover {
   display: none;
 }
 @media (max-width: 768px) {
-  .sidebar{
+  .sidebar {
     font-size: 2.5vw;
   }
 }
@@ -96,7 +97,6 @@ nav a:hover {
     position: fixed;
     top: 0;
     right: -100%;
-    z-index: 10;
     text-align: center;
     align-items: center;
     justify-content: flex-start;

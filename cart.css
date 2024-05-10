@@ -168,7 +168,7 @@ body {
   font-size: 2vw;
   border-radius: 20px;
   border: none;
-  background-color: orange;
+  background-color: rgba(255, 166, 0);
   color: #fff;
   font-weight: 900;
   cursor: pointer;
@@ -185,8 +185,13 @@ body {
   width: 30%;
 }
 .back {
-  font-size: 1.6vw;
   margin-left: 5%;
+}
+.back a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.6vw;
+
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -220,11 +225,19 @@ body {
     font-size: 3vw;
   }
   .total-price,
-  .back {
+  .back a{
     font-size: 4vw;
   }
   .total-price .sub-p,
   .total-price span {
     font-size: 3vw;
+  }
+  .paynow{
+    height: 10vmin;
+    width: 50%;
+    font-size: 3.5vw;
+  }
+  .cart-item span {
+    font-size: 3.5vw;
   }
 }
