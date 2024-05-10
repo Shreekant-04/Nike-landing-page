@@ -207,6 +207,9 @@ body {
   }
 }
 @media (max-width: 770px) {
+  .heading {
+    margin-top: 15%;
+  }
   .cart-item {
     font-size: 2.5vw;
   }
