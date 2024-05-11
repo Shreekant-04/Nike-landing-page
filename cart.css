@@ -165,13 +165,19 @@ body {
 .paynow {
   width: 40%;
   height: 8vmin;
+
+}
+.paynow button{
+  height: 100%;
+  width: 100%;
   font-size: 2vw;
   border-radius: 20px;
   border: none;
-  background-color: rgba(255, 166, 0);
+  background-color: rgba(255, 136, 0);
   color: #fff;
   font-weight: 900;
   cursor: pointer;
+  
 }
 .razor {
   width: 50%;

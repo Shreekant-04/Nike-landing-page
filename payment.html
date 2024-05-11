@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <script src="header/header.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <header id="navbar"></header>
+    <h2 class="check">Checkout</h2>
+    <section class="payment">
+      <form action="" class="detail-form payment-detail">
+        <h3>Contact Detail</h3>
+        <label for="email" class="email"
+          >Email ID
+          <input type="email" name="email" id="email" />
+        </label>
+        <h3>Payment</h3>
+        <div class="pay-type">
+          <label for="">
+            <span class="material-symbols-outlined">
+              credit_card
+              </span>
+              Card
+          </label>
+          <label for="">
+            <span class="material-symbols-outlined">
+              currency_bitcoin
+              </span>
+              Crypto
+          </label>
+          <label for="">
+            <span class="material-symbols-outlined">
+              account_balance
+              </span>
+              Bank
+          </label>
+          <label for="" class="more"><span class="material-symbols-outlined">
+            more_vert
+            </span></label>
+        </div>
+        <label for="card" class="card"
+          >Card Number
+          <input type="number" name="Card-No" id="card-no"  pattern="\d*" maxlength="16" />
+        </label>
+        <div class="exp">
+          <label for="exp"
+            >Expiry
+            <input type="month" name="" id="" 
+            />
+          </label>
+          <label for="cvc">
+            CVC
+            <input type="number" name="cvc" id="cvc" />
+          </label>
+        </div>
+        <div class="country">
+          <label for="country"
+            >country
+            <select name="Country" id="con">
+              <option value="India">India</option>
+            </select>
+          </label>
+          <label for="zip"
+            >Zip
+            <input type="number" />
+          </label>
+        </div>
+      </form>
+      <div class="total">
+        <h1>Order Summary </h1>
+        <label class="coupon">
+          <input type="text" name="coupon" placeholder="Enter Coupon code" id="coupon-id">
+          <button type="submit">Apply Coupon</button>
+        </label>
+        <div class="netpay">
+          <label >Sub Total
+            <p class="sub-total">
+              <span class="material-symbols-outlined">
+                currency_rupee
+                </span>10795</p>
+          </label>
+          <label >Taxes
+            <p> <span class="material-symbols-outlined">
+              currency_rupee
+              </span>199</p>
+          </label>
+          <label >Discount
+            <p> <span class="material-symbols-outlined">
+              currency_rupee
+              </span>100</p>
+          </label>
+          <label class="total-amt">Total <p> <span class="material-symbols-outlined">
+            currency_rupee
+            </span>10894</p></label>
+        </div>
+       
+        <div class="safety-icon">
+          <button class="paynow" >Pay Now
+            <span class="material-symbols-outlined">
+              currency_rupee
+              </span> 10894.00</button>
+            <img src="icons/ssl.jpg">
+            <img src="icons/razorpay.svg">
+            <img src="icons/secure-payment.avif">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

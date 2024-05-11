@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .check{
+    width: 90%;
+    margin-top:5%;
+
+  }
+  .payment{
+    width: 80%;
+    height: 80%;
+    display: flex;
+
+  }
+  .payment-detail,
+  .total{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+  }
+  .payment-detail ,.total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .payment-detail label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2%;
+  }
+  .payment-detail input{
+    border-radius: 20px;
+    height: 5vmin;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    text-indent: 10px;
+  }
+  .country select{
+    border-radius: 20px;
+    height: 5vmin;
+  }
+  .email,.card{
+    width: 90%;
+  }
+ 
+  .pay-type,.exp ,.country{
+    width: 90%;
+    height: 15vmin;
+  }
+
+  .pay-type{
+    display: flex;
+    height: 11vmin;
+    gap: 2%;
+  }
+  .pay-type label{
+    width: 12vmin;
+    height: 10vmin;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    color: gray;
+    font-size: 1.2vw;
+  }
+  .pay-type label:first-child{
+    color: orange;
+    border-color: orange;
+  }
+  
+  .pay-type label:last-child{
+    width: 6vmin;
+  }
+  .exp ,.country{
+    height: 8vmin;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+  }
+  .exp label ,.country label{
+    width: 50%;
+  }
+
+ 
+  .total h1{
+    width: 50%;
+  }
+ 
+  .coupon{
+    height: 10vmin;
+    padding: 5px;
+  }
+  .coupon input, .coupon button{
+    height: 5vmin;
+    border-radius: 20px;
+  }
+  .coupon input{
+    text-indent: 10px;
+    border: 1px solid grey;
+  }
+  .coupon button{
+    width: 20vmin;
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .netpay{
+    width: 70%;
+    height: 30%;
+  }
+  .netpay label{ 
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+  }
+  .netpay p{
+    display: flex;
+    align-items: center;
+  }
+  .netpay span{
+    font-size: 1vw;
+  }
+  .netpay label:last-child{
+  height: 30%;
+  font-size: 1.7vw;
+  color: black;
+  font-weight: 900;
+ }
+ 
+ .safety-icon{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+
+ }
+ .paynow{
+  height: 10vmin;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 136, 0);
+  color: #fff;
+  font-size: 1.5vw; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .safety-icon img{
+  height: 30%;
+  width: 30%;
+ }
+ @media (max-width:770px){
+  .check{
+    margin-top: 15%;
+  }
+  .payment{
+    flex-direction: column;
+    height: 90%;
+  }
+  .payment-detail,.total{
+    width: 100%;
+    height: 50%;
+  }
+  .paynow{
+    font-size: 3vw;
+  }
+ }
+ @media (max-width:430px){
+  .check{
+    margin-top:20%;
+  }
+ 
+  .pay-type label{
+    font-size: 2vw;
+  }
+  .total h1{
+    width: 100%;
+  }
+  .coupon input{
+    width: 50%;
+  }
+  .coupon button{
+    width: 40%;
+  }
+  .netpay label:last-child{
+    font-size: 3.5vw;
+  }
+  .safety-icon {
+    width: 80%;
+  }
+
+  
+ }
