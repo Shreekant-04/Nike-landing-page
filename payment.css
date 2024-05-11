@@ -36,8 +36,8 @@
     box-shadow: 0 0 5px;
   }
   .total{
-    width: 40%;
-    height: 80%;
+    width: 35%;
+    height: 70%;
   }
   .payment-detail ,.total {
     display: flex;
@@ -204,15 +204,15 @@
     height: 50%;
   }
   .total{
-    height: 45%;
+    height: 40%;
   }
   .netpay label:last-child{
-    font-size: 3.5vw;
+    font-size: 4vw;
+  }
+  .netpay span{
+    font-size: 3vw;
   }
   .safety-icon {
     width: 80%;
-  }
-  
-
-  
+  } 
  }
