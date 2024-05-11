@@ -21,19 +21,29 @@
     width: 80%;
     height: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 
   }
   .payment-detail,
   .total{
     height: 100%;
     width: 50%;
+    border-radius: 20px;
     padding: 20px;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px;
+  }
+  .total{
+    width: 40%;
+    height: 80%;
   }
   .payment-detail ,.total {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
   .payment-detail label{
     display: flex;
@@ -98,7 +108,9 @@
 
  
   .total h1{
-    width: 50%;
+    width: 100%;
+    font-size: 2.5vw;
+    text-align: center;
   }
   .netpay{
     width: 70%;
@@ -124,13 +136,13 @@
   color: black;
   font-weight: 900;
  }
- 
+
  .safety-icon{
-  width: 50%;
+  width: 70%;
+  height: 30%;
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  align-items: center;
 
  }
  .paynow{
@@ -148,7 +160,7 @@
  }
  .safety-icon img{
   height: 30%;
-  width: 30%;
+  width: 25%;
  }
  @media (max-width:770px){
   .check{
@@ -162,16 +174,23 @@
     width: 100%;
     height: 50%;
   }
+  .total{
+    height: 30%;
+  }
   .paynow{
     font-size: 3vw;
   }
+  .safety-icon img{
+    height: 40%;
+    width: 20%;
+   }
  }
  @media (max-width:430px){
   .check{
     margin-top:20%;
   }
   .payment{
-    width: 100%;
+    width: 95%;
   }
  
   .pay-type label{
@@ -179,6 +198,13 @@
   }
   .total h1{
     width: 100%;
+    font-size: 4vw;
+  }
+  .payment-detail,.total{
+    height: 50%;
+  }
+  .total{
+    height: 45%;
   }
   .netpay label:last-child{
     font-size: 3.5vw;
@@ -186,6 +212,7 @@
   .safety-icon {
     width: 80%;
   }
+  
 
   
  }
