@@ -100,26 +100,6 @@
   .total h1{
     width: 50%;
   }
- 
-  .coupon{
-    height: 10vmin;
-    padding: 5px;
-  }
-  .coupon input, .coupon button{
-    height: 5vmin;
-    border-radius: 20px;
-  }
-  .coupon input{
-    text-indent: 10px;
-    border: 1px solid grey;
-  }
-  .coupon button{
-    width: 20vmin;
-    background-color: rgb(0, 89, 255);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
   .netpay{
     width: 70%;
     height: 30%;
@@ -199,12 +179,6 @@
   }
   .total h1{
     width: 100%;
-  }
-  .coupon input{
-    width: 50%;
-  }
-  .coupon button{
-    width: 40%;
   }
   .netpay label:last-child{
     font-size: 3.5vw;
