@@ -190,6 +190,9 @@
   .check{
     margin-top:20%;
   }
+  .payment{
+    width: 100%;
+  }
  
   .pay-type label{
     font-size: 2vw;
