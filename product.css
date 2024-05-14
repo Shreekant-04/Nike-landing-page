@@ -34,7 +34,7 @@ body {
 .bigimage {
   height: 75%;
   width: 40%;
-  background-image: url(image/1.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b254613b-0354-4a8c-915c-9f7cbb7f7b77/free-metcon-5-workout-shoes-7wNZNf.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -102,31 +102,31 @@ body {
   border-radius: 20px;
 }
 .image1 {
-  background-image: url(image/1.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b254613b-0354-4a8c-915c-9f7cbb7f7b77/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image2 {
-  background-image: url(image/2.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab814675-9540-4084-9d0f-7aaf400b3a71/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image3 {
-  background-image: url(image/3.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e6b3af86-fcce-479a-ada1-4a43b24b6b2e/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image4 {
-  background-image: url(image/4.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/843d5a71-993d-4353-9089-0fbe9d5e1515/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image5 {
-  background-image: url(image/5.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/014cb095-c018-473d-8b4d-5b50a2869bd5/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image6 {
-  background-image: url(image/6.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5839f60d-82c6-46f9-8127-5cd8c8c2c946/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image7 {
-  background-image: url(image/7.jpg);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7a33e000-e57b-4a12-a0b3-92d60c78d63d/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image8 {
-  background-image: url(image/8.png);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/88ab66a7-c3bc-4bb0-bba5-1902fb6b9042/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 .image9 {
-  background-image: url(image/9.jpeg);
+  background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c7bc5a54-ec3c-4081-943e-c0408019d666/free-metcon-5-workout-shoes-7wNZNf.png");
 }
 @media (max-width: 770px) {
   .bigimage {
@@ -155,18 +155,17 @@ body {
   }
 }
 @media (max-width: 430px) {
-    .product-info{
-        width: 100%;
-        overflow-x: visible;
-        border-radius: 0;
-        box-shadow: none;
-        height: 90%;
-
-    }
+  .product-info {
+    width: 100%;
+    overflow-x: visible;
+    border-radius: 0;
+    box-shadow: none;
+    height: 90%;
+  }
   .bigimage {
     width: 80%;
     height: 25%;
-    background-size:80%  ;
+    background-size: 80%;
   }
   .images {
     height: 12%;
@@ -178,7 +177,7 @@ body {
   .prod-name {
     height: 15%;
   }
-  .prod-desc{
+  .prod-desc {
     font-size: 3vw;
   }
   .add {
